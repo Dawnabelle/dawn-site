@@ -21,6 +21,12 @@ run `npm install`
 <br>
 run `npm start`
 
+If you need to install Gatsby
+`npm install --global gatsby-cli`
+
+Then
+`gatsby develop`
+
 
 ### Notes
 
