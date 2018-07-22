@@ -23,9 +23,43 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          Welcome home, Dorothy
         </Link>
       </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/page-2"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+        About la Dawnabelle
+        </Link>
+      </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/page-3"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+        Mes Projets
+        </Link>
+      </h1>
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/page-4"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+        Contact Moi
+        </Link>
+      </h1>
+
     </div>
   </div>
 )
