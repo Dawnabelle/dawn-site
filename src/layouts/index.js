@@ -4,6 +4,9 @@ import Helmet from 'react-helmet'
 import Media from 'react-media'
 
 import Header from '../components/header'
+import Sidebar from '../components/sidebar'
+import TemplateWrapper from '../components/template-wrapper'
+
 import './index.css'
 import "../styles/layout-overide.css";
 
@@ -17,6 +20,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
+    <Sidebar />
     <div
       style={{
         margin: '0 auto',
