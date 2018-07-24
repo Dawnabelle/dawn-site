@@ -28,13 +28,15 @@ const FourthPage = () => (
         padding: '20px',
         margin: 'auto',
       }}>
-      <h3>Enter your name and email and I'll send you a message.</h3>
       <form action="https://formspree.io/dawn.mott@gmail.com"
         method="POST">
         <label>Enter Name: </label><br/>
-        <input type="text" name="name" /><br/><br/>
+        <input type="text" name="name" placeholder="Dawnabelle"/><br/><br/>
         <label>Enter Email: </label><br/>
-        <input type="email" name="_replyto" />
+        <input type="email" name="_replyto" placeholder="dawnrparty@gmail.com" />
+        <br/><br/>
+        <label>Enter Message: </label><br/>
+        <textarea name="message" placeholder="Your message"></textarea>
         <br/><br/>
 
         <input type="submit" value="Send" />
