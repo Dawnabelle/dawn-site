@@ -20,10 +20,13 @@ p, div {
 }
 
 a {
-    color: white;
     text-decoration: none;
 }
 
 li, ul, ol {
     text-decoration: none;
+}
+
+h2 {
+  color: teal;
 }

@@ -10,7 +10,7 @@ export default () =>
     }}>
     <div style={{
         background: '#a1ebdd',
-        color: 'black',
+        color: 'white',
         padding: '20px',
         margin: '20px'
       }}>
@@ -18,7 +18,7 @@ export default () =>
           lineHeight: '5rem',
           marginLeft: '150px',
           marginRight: '150px',
-        }}>Dawnabelle in Real Life</h1>
+        }}></h1>
       <p>Welcome.</p>
       <p>Please enjoy your pinhole glimpse of my life and code.</p>
       <p>Allons-y!</p>
