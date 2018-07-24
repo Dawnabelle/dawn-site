@@ -3,10 +3,15 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
 
+  <div style={{
+      textAlign: 'center',
+      border: '25px solid turquoise',
+      padding: '20px 50px 20px 50px'
+
+    }}>
     <div>
-      <div>
         <div>
-          <img src='https://dawnabelle.github.io/portfolio/img/egg.jpg'/>
+          <img src='https://dawnabelle.github.io/portfolio/img/egg.jpg' width='500'/>
           <h2>Thanks, Eglantine!</h2>
           <h4>Substituiary Locomotion Spell</h4>
           <p>Treguna Mekoides and Trecorum Satis Dee<br/>
@@ -16,47 +21,41 @@ const SecondPage = () => (
           Substitutiary locomotion come to me.<br/>
         -Eglantine Price (fictional character)</p>
           <h3>Sci-Fi &amp; Fantasy</h3>
-          <ul>
-            <li>Doctor Who</li>
-            <li>The Magicians</li>
-            <li>Studio Ghibli</li>
-          </ul>
+            <p>Doctor Who</p>
+            <p>The Magicians</p>
+            <p>Studio Ghibli</p>
         </div>
       </div>
 
       <div>
         <div>
-          <img src='https://dawnabelle.github.io/portfolio/img/thumb.jpg'/>
+          <img src='https://dawnabelle.github.io/portfolio/img/thumb.jpg' width='500'/>
           <h2>Mustard McGinks</h2>
           <h3>Oh he stinks</h3>
-          <h5>He's just a thumb</h5>
-          <p>At the height of my depression, I found the most amazing puppy on the planet. He saved my life and made me a better person. I hope he understands what he means to me. When this photo was taken, he was nameless.</p>
+          <h4>He's just a thumb</h4>
+          <p>At the height of my depression, I found the most amazing puppy on the planet.<br/> He saved my life and made me a better person.<br/> I hope he understands what he means to me. When this photo was taken, he was nameless.</p>
           <div>
             <h3>My Mustard Guy</h3>
-            <ul>
-              <li>He's got soft ears.</li>
-              <li>He sleeps in my bed.</li>
-              <li>He'd follow me anywhere.</li>
-            </ul>
+              <p>He's got soft ears.</p>
+              <p>He sleeps in my bed.</p>
+              <p>He'd follow me anywhere.</p>
           </div>
         </div>
       </div>
 
       <div>
         <div>
-          <img src='https://dawnabelle.github.io/portfolio/img/mustard.jpg'/>
+          <img src='https://dawnabelle.github.io/portfolio/img/mustard.jpg' width='500'/>
           <h2>The Great Outdoors</h2>
           <h3>Fresh air, free mind.</h3>
-          <p>I've always loved being outside! In Florida, the beach was my escape. In NYC, it was Prospect Park. In Atlanta, it was Piedmont Park. Now that I'm in Oregon, I explore the Pacific Northwest as often as I possibly can. Always, with Mustard.</p>
+          <p>I've always loved being outside! In Florida, the beach was my escape. <br/>In NYC, it was Prospect Park. In Atlanta, it was Piedmont Park. <br/>Now that I'm in Oregon, I explore the Pacific Northwest as often as I possibly can. <br/>Always, with Mustard.</p>
           <div>
             <h3>Favorite Hiking Spots</h3>
-            <ol>
-              <li>Columbia River Gorge</li>
-              <li>Olympic National Park</li>
-              <li>Oregon Coast</li>
-              <li>Silver Falls</li>
-              <li>Mt. Hood</li>
-            </ol>
+              <p>Columbia River Gorge</p>
+              <p>Olympic National Park</p>
+              <p>Oregon Coast</p>
+              <p>Silver Falls</p>
+              <p>Mt. Hood</p>
           </div>
         </div>
       </div>
