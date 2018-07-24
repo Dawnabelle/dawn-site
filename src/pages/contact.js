@@ -21,7 +21,7 @@ const FourthPage = () => (
       <p>... if you &hearts; green.</p>
       <p>... if you &hearts; PoC.</p>
       <p>... if you &hearts; freedom.</p>
-      <p>... if you &hearts; LGBTQ+.</p>
+      <p>... if you &hearts; LGBTQIA+.</p>
       <img src='https://dawnabelle.github.io/portfolio/img/tardis.jpg'/>
     </div>
     <div style={{
