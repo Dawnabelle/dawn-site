@@ -1,6 +1,6 @@
 ---
 title: Clothing Exchange
-path: /projects/clothing
+path: '/projects/clothing'
 order: 5
 ---
 

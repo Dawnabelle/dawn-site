@@ -1,6 +1,6 @@
 ---
 title: This is a project title
-path: /projects/epicodus
+path: '/projects/epicodus'
 order: 1
 ---
 

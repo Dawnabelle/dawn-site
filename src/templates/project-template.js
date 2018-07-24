@@ -6,7 +6,7 @@ import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import TemplateWrapper from '../components/template-wrapper'
 
-import './index.css'
+import '../layouts/index.css'
 import "../styles/layout-overide.css";
 
 const Layout = ({ data, children }) => {
@@ -36,7 +36,7 @@ const Layout = ({ data, children }) => {
               paddingTop: 0,
             }}
           >
-            {children}
+            <div clasName="myContent" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
           </div>
       </div>
 
@@ -50,25 +50,28 @@ Layout.propTypes = {
 
 export default Layout
 
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark {
-      edges {
-        node {
-          id
-          html
-          frontmatter {
-            title
-            path
-            order
-          }
+export const pageQuery = graphql`
+query MyProjects($path: String!) {
+  allMarkdownRemark {
+    edges {
+      node {
+        id
+        html
+        frontmatter {
+          title
+          path
+          order
         }
       }
     }
   }
+  markdownRemark(frontmatter: { path: { eq: $path }}) {
+    id
+    html
+    frontmatter {
+      title
+      path
+    }
+  }
+}
 `
