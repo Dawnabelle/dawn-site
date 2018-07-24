@@ -1,0 +1,8 @@
+.sidebar-list {
+  list-style: none;
+}
+
+.sidebar-list li::before {
+  content: '#';
+  color: teal;
+}

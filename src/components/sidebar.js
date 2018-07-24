@@ -1,11 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import  './sidebar.css';
+
 const Sidebar = (props) => {
   console.log("Sidebar props", props);
 
   const projects = props.projects || [];
-  const myProjectLinks = projects.map( project => <li><a href={project.node.frontmatter.path}> {project.node.frontmatter.title}</a></li>);
+  const myProjectLinks = projects.map( project => <li key={project.node.id}><a href={project.node.frontmatter.path}> {project.node.frontmatter.title}</a></li>);
 
   return (
     <div
@@ -15,7 +17,8 @@ const Sidebar = (props) => {
         padding: '0.5rem'
       }}
       >
-      <ul>
+      <h3>Projects</h3>
+      <ul className="sidebar-list">
         {myProjectLinks}
       </ul>
     </div>

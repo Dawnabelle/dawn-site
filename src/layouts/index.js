@@ -36,7 +36,7 @@ const Layout = ({ data, children }) => {
               paddingTop: 0,
             }}
           >
-            {children}
+            {children()}
           </div>
       </div>
 
