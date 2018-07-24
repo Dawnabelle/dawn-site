@@ -2,11 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const FourthPage = () => (
-<div>
-  <div>
+<div style={{
+    textAlign: 'center',
+    border: '15px solid turquoise',
+    padding: '20px 50px 20px 50px',
+  }}>
     <h1>Contact Moi</h1>
     <p><em>Contactez moi</em>, s'il vous plaît...</p>
-  </div>
     <div>
       <img src='https://dawnabelle.github.io/portfolio/img/idaho.jpg'/>
       <p>... if you &hearts; hiking.</p>

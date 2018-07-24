@@ -5,9 +5,8 @@ const SecondPage = () => (
 
   <div style={{
       textAlign: 'center',
-      border: '25px solid turquoise',
+      border: '15px solid turquoise',
       padding: '20px 50px 20px 50px'
-
     }}>
     <div>
         <div>

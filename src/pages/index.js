@@ -4,14 +4,21 @@ import Link from "gatsby-link";
 
 export default () =>
   <div style={{
-      color: 'teal',
       textAlign: 'center',
+      border: '25px solid turquoise',
+      padding: '20px 50px 20px 50px',
     }}>
     <div style={{
-        background: 'turquoise',
-        color: 'white',
+        background: '#a1ebdd',
+        color: 'black',
+        padding: '20px',
+        margin: '20px'
       }}>
-      <h1>Dawnabelle in Real Life</h1>
+      <h1 style={{
+          lineHeight: '5rem',
+          marginLeft: '150px',
+          marginRight: '150px',
+        }}>Dawnabelle in Real Life</h1>
       <p>Welcome.</p>
       <p>Please enjoy your pinhole glimpse of my life and code.</p>
       <p>Allons-y!</p>
