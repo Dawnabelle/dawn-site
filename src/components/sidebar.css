@@ -3,10 +3,10 @@
 }
 
 .sidebar-list li::before {
-  content: '#';
+  content: '||';
   color: white;
 }
 
-a {
+.feet a {
   color: white;
 }

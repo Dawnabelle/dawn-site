@@ -1,14 +1,14 @@
 ---
 path: /projects/hello-world-pm
-title: Project Management/Junior Developer
+title: Hello World Devs
 order: 40
 ---
 
 ## Description
 
-Working under Dan Linn, I interact with clients and get coding done. Here are some of the things I worked with...
+I am a Project Manager, Junior Dev, and occasional Admin. Working under Dan Linn, I interact with clients and get coding done.
 
-[Check it out on Github!](https://github.com/Dawnabelle)
+Check it out [Hello World!](helloworlddevs.com)
 
 ### Technologies
 

@@ -10,7 +10,7 @@ const Sidebar = (props) => {
   const myProjectLinks = projects.map( project => <li key={project.node.id}><a href={project.node.frontmatter.path}> {project.node.frontmatter.title}</a></li>);
 
   return (
-    <div
+    <div className="feet"
       style={{
         borderRight: '2px solid #e6e6e6',
         width: '20%',
