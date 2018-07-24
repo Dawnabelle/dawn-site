@@ -16,7 +16,3 @@ Working under Dan Linn, I interact with clients and get coding done. Here are so
 - agile
 - json
 - css
-
-<div style='background: red;'>
-  <h3>Yolo</h3>
-</div>

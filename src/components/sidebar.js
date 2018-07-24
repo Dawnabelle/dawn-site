@@ -14,7 +14,9 @@ const Sidebar = (props) => {
       style={{
         borderRight: '2px solid #e6e6e6',
         width: '20%',
-        padding: '0.5rem'
+        padding: '0.5rem',
+        background: 'teal',
+        color: 'white'
       }}
       >
       <h3>Projects</h3>

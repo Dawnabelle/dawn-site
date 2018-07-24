@@ -5,11 +5,17 @@ import Link from "gatsby-link";
 export default () =>
   <div style={{
       color: 'teal',
+      textAlign: 'center',
     }}>
-    <h1>Dawnabelle in Real Life</h1>
-    <p>Welcome.</p>
-    <p>Please enjoy your pinhole glimpse of my life and code.</p>
-    <p>Allons-y!</p>
+    <div style={{
+        background: 'turquoise',
+        color: 'white',
+      }}>
+      <h1>Dawnabelle in Real Life</h1>
+      <p>Welcome.</p>
+      <p>Please enjoy your pinhole glimpse of my life and code.</p>
+      <p>Allons-y!</p>
+    </div>
     <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
     <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
     <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />

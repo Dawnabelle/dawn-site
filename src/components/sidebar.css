@@ -4,5 +4,5 @@
 
 .sidebar-list li::before {
   content: '#';
-  color: teal;
+  color: white;
 }
