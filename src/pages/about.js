@@ -11,6 +11,7 @@ const SecondPage = () => (
     <div>
         <div>
           <img src='https://dawnabelle.github.io/portfolio/img/egg.jpg' width='500'/>
+          <div>
           <h2>Thanks, Eglantine!</h2>
           <h4>Substituiary Locomotion Spell</h4>
           <p>Treguna Mekoides and Trecorum Satis Dee<br/>
@@ -23,16 +24,18 @@ const SecondPage = () => (
             <p>Doctor Who</p>
             <p>The Magicians</p>
             <p>Studio Ghibli</p>
+            </div>
         </div>
       </div>
 
       <div>
         <div>
-          <img src='https://dawnabelle.github.io/portfolio/img/thumb.jpg' width='500'/>
           <h2>Mustard McGinks</h2>
+          <p>When this photo was taken, he was nameless.</p>
+          <img src='https://dawnabelle.github.io/portfolio/img/thumb.jpg' width='500'/>
           <h3>Oh he stinks</h3>
           <h4>He's just a thumb</h4>
-          <p>At the height of my depression, I found the most amazing puppy on the planet.<br/> He saved my life and made me a better person.<br/> I hope he understands what he means to me. When this photo was taken, he was nameless.</p>
+          <p>At the height of my depression, <br/>I found the most amazing puppy on the planet.<br/> He saved my life and made me a better person.<br/> I hope he understands what he means to me.</p>
           <div>
             <h3>My Mustard Guy</h3>
               <p>He's got soft ears.</p>
