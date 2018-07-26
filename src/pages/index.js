@@ -9,7 +9,6 @@ export default () =>
       padding: '20px 50px 20px 50px',
     }}>
     <div style={{
-        color: 'white',
         padding: '20px',
         margin: '20px'
       }}>
@@ -17,7 +16,7 @@ export default () =>
           lineHeight: '5rem',
           marginLeft: '150px',
           marginRight: '150px',
-          color: 'teal'
+          color: 'black'
         }}>Welcome</h1>
       <h1></h1>
       <p>Please enjoy your pinhole glimpse of my life and code.</p>

@@ -1,5 +1,5 @@
 * {
-    color: teal;
+    color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 html {
@@ -29,21 +29,21 @@ li, ul, ol {
 }
 
 h2 {
-  color: teal;
+  color: black;
 }
 
 a.myH1Class {
-  color: white;
+  color: black;
 }
 
 a.myH1Class:hover {
-  color: coral;
+  color: white;
 }
 
 a.myH1Class:focus {
-  color: coral;
+  color: white;
 }
 
 a.sidebar-list {
-  color: coral;
+  color: white;
 }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Dawn In Real Life',
+    title: 'Dawnabelle In Real Life',
     foobar: 'This is the value of foo',
   },
   plugins: [
