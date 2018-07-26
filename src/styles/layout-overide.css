@@ -21,6 +21,7 @@ p, div {
 
 a {
     text-decoration: none;
+    color: coral;
 }
 
 li, ul, ol {
@@ -29,4 +30,20 @@ li, ul, ol {
 
 h2 {
   color: teal;
+}
+
+a.myH1Class {
+  color: white;
+}
+
+a.myH1Class:hover {
+  color: coral;
+}
+
+a.myH1Class:focus {
+  color: coral;
+}
+
+a.sidebar-list {
+  color: coral;
 }

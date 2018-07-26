@@ -7,6 +7,10 @@
   color: white;
 }
 
-.feet a {
+.sidebar-extra a {
   color: white;
+}
+
+.sidebar-extra a:hover {
+  color: coral;
 }

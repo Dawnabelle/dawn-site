@@ -5,11 +5,10 @@ import Link from "gatsby-link";
 export default () =>
   <div style={{
       textAlign: 'center',
-      border: '25px solid turquoise',
+      border: '15px solid turquoise',
       padding: '20px 50px 20px 50px',
     }}>
     <div style={{
-        background: '#a1ebdd',
         color: 'white',
         padding: '20px',
         margin: '20px'
@@ -18,12 +17,97 @@ export default () =>
           lineHeight: '5rem',
           marginLeft: '150px',
           marginRight: '150px',
-        }}></h1>
-      <p>Welcome.</p>
+          color: 'teal'
+        }}>Welcome</h1>
+      <h1></h1>
       <p>Please enjoy your pinhole glimpse of my life and code.</p>
       <p>Allons-y!</p>
     </div>
     <div>
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/climb.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/kerbear.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/mountain.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/petunia.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/bike.jpg' alt='' width='500' />
+    <img src='https://dawnabelle.github.io/portfolio/img/cuz.jpg' alt='' width='500' />
     <img src='https://dawnabelle.github.io/portfolio/img/beach.jpg' alt='' width='500' />
     <img src='https://dawnabelle.github.io/portfolio/img/family.jpg' alt='' width='500' />
     <img src='https://dawnabelle.github.io/portfolio/img/helens.jpg' alt='' width='500' />

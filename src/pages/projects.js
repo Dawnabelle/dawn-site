@@ -12,8 +12,7 @@ const ThirdPage = () => (
   }}>
   <div>
     <h1>Portfolio a&#768; la Dawnabelle</h1>
-    <p>My progress as a junior programer, web magician, and project manager.</p>
-    <p><em>Interested in my life pre-Epicodus? <a href="">Scope my resume</a></em></p>
+    <p>My progress as a junior developer, web magician, and project manager.</p>
   </div>
 <br/>
   <div>

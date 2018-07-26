@@ -12,11 +12,10 @@ const Header = () => (
       padding: '2rem',
     }}
   >
-  <h1 style={{ margin: 0 }}>
-    <Link
+  <h1 className="myH1Class" style={{ margin: 0 }}>
+    <Link className="myH1Class"
       to="/"
       style={{
-        color: 'white',
         textDecoration: 'none',
       }}
     >
@@ -32,10 +31,9 @@ const Header = () => (
       }}
     >
       <h1 style={{ paddingRight: '20px', margin: 0 }}>
-        <Link
+        <Link  className="myH1Class"
           to="/about"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -43,10 +41,9 @@ const Header = () => (
         </Link>
       </h1>
       <h1 style={{ paddingRight: '20px', margin: 0 }}>
-        <Link
+        <Link className="myH1Class"
           to="/projects"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -54,10 +51,9 @@ const Header = () => (
         </Link>
       </h1>
       <h1 style={{ paddingRight: '20px', margin: 0 }}>
-        <Link
+        <Link className="myH1Class"
           to="/contact"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >

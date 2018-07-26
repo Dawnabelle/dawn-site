@@ -10,7 +10,7 @@ const Sidebar = (props) => {
   const myProjectLinks = projects.map( project => <li key={project.node.id}><a href={project.node.frontmatter.path}> {project.node.frontmatter.title}</a></li>);
 
   return (
-    <div className="feet"
+    <div className="sidebar-extra"
       style={{
         borderRight: '2px solid #e6e6e6',
         width: '20%',
@@ -19,7 +19,7 @@ const Sidebar = (props) => {
         color: 'white'
       }}
       >
-      <h3>Projects</h3>
+      <h3>Organizations</h3>
       <ul className="sidebar-list">
         {myProjectLinks}
       </ul>

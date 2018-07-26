@@ -4,11 +4,11 @@ title: Hello World Devs
 order: 40
 ---
 
-## Description
+## Hello World
 
-I am a Project Manager, Junior Dev, and occasional Admin. Working under Dan Linn, I interact with clients and get coding done.
+I am a Project Manager, Junior Dev, and Operations Admin. Working under Dan Linn, I interact with clients and get coding done.
 
-Check it out [Hello World!](helloworlddevs.com)
+Check it out [Hello World!](http://helloworlddevs.com)
 
 ### Technologies
 
